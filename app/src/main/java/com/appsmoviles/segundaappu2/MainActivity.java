@@ -2,6 +2,7 @@ package com.appsmoviles.segundaappu2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position) {
                     case 0:
-                        Toast.makeText(getApplicationContext(), "Repro music", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), MusicaActivity.class));
                         break;
                     case 1:
                         Toast.makeText(getApplicationContext(), "Repro video", Toast.LENGTH_SHORT).show();

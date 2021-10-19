@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), VideoActivity.class));
                         break;
                     case 2:
-                        Toast.makeText(getApplicationContext(), "Touch y sonido", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), TouchSonidoActivity.class));
                         break;
                     case 3:
                         Toast.makeText(getApplicationContext(), "animacion", Toast.LENGTH_SHORT).show();

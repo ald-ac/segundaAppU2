@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SegundaAppU2">
         <activity
-            android:name=".MusicaActivity"
-            android:label="Reproductor Musical"
+            android:name=".VideoActivity"
             android:exported="true" />
+        <activity
+            android:name=".MusicaActivity"
+            android:exported="true"
+            android:label="Reproductor Musical" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

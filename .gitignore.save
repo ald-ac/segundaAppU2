@@ -12,6 +12,4 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
-app/src/main/res/raw/joker.mp4
-app/src/main/res/raw/rocky.mp4
+local.properties?

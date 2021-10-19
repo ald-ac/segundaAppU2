@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MusicaActivity.class));
                         break;
                     case 1:
-                        Toast.makeText(getApplicationContext(), "Repro video", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), VideoActivity.class));
                         break;
                     case 2:
                         Toast.makeText(getApplicationContext(), "Touch y sonido", Toast.LENGTH_SHORT).show();

@@ -72,7 +72,7 @@ public class TouchSonidoActivity extends AppCompatActivity implements View.OnTou
     }
 
     public class EjemploView extends View {
-        private Drawable miImagen,fondo,gato;
+        private Drawable miImagen,fondo,campana;
         public EjemploView (Context context) {
             super(context);
         }
@@ -87,9 +87,9 @@ public class TouchSonidoActivity extends AppCompatActivity implements View.OnTou
             fondo.setBounds(0,0,resX-1,resY-1);
             fondo.draw(canvas);
 
-            gato = res.getDrawable(idCampana);
-            gato.setBounds(0,0,350,350);
-            gato.draw(canvas);
+            campana = res.getDrawable(idCampana);
+            campana.setBounds(0,0,350,350);
+            campana.draw(canvas);
 
             miImagen = res.getDrawable(idImagen);
             miImagen.setBounds((int)px-175,(int)py-175,(int)px+175,(int)py+175);

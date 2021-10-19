@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), TouchSonidoActivity.class));
                         break;
                     case 3:
-                        Toast.makeText(getApplicationContext(), "animacion", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), AnimacionActivity.class));
                         break;
                     case 4:
                         Toast.makeText(getApplicationContext(), "canvas", Toast.LENGTH_SHORT).show();

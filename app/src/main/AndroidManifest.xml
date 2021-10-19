@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SegundaAppU2">
         <activity
-            android:name=".TouchSonidoActivity"
-            android:label="Touch y Sonido"
+            android:name=".AnimacionActivity"
+            android:label="Animacion"
             android:exported="true" />
         <activity
+            android:name=".TouchSonidoActivity"
+            android:exported="true"
+            android:label="Touch y Sonido" />
+        <activity
             android:name=".VideoActivity"
-            android:label="Reproductor de Video"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Reproductor de Video" />
         <activity
             android:name=".MusicaActivity"
             android:exported="true"

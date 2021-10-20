@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), CanvasActivity.class));
                         break;
                     case 5:
-                        Toast.makeText(getApplicationContext(), "gestures", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), GesturesActivity.class));
                         break;
                 }
             }

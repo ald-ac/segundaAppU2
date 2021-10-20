@@ -5,10 +5,13 @@
       <map>
         <entry key="app/src/main/res/layout/activity_animacion.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/layout/activity_canvas.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/activity_gestures.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_musica.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_touch_sonido.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_video.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/degradado.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/gradient.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/list_view_item.xml" value="0.21145833333333333" />
       </map>
     </option>

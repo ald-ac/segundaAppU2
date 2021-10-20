@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SegundaAppU2">
         <activity
-            android:name=".AnimacionActivity"
-            android:label="Animacion"
+            android:name=".CanvasActivity"
+            android:label="Dibujo en canvas"
             android:exported="true" />
+        <activity
+            android:name=".AnimacionActivity"
+            android:exported="true"
+            android:label="Animacion" />
         <activity
             android:name=".TouchSonidoActivity"
             android:exported="true"
